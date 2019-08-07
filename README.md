@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Explore project on github pages
+https://irisji.github.io/client/
+
 ## Available Scripts
 
 In the project directory, you can run:
