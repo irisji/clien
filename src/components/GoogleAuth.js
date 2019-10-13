@@ -40,7 +40,7 @@ class GoogleAuth extends React.Component {
     }
 
     renderGoogleAuth(){
-        console.log('1',this.props.isSignedIn);
+        //console.log('1',this.props.isSignedIn);
         if (this.props.isSignedIn ==="null"){
             return null
         }
