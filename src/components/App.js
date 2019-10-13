@@ -13,7 +13,7 @@ import StreamShow from "../streams/streamShow";
 const App = ()=>{
     return(
         <div className = "ui container">
-            <BrowserRouter basename ='https://irisji.github.io/client/'>
+            <BrowserRouter basename ='client'>
                 
                 <div>
                     <Header/>
