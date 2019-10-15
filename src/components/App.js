@@ -8,12 +8,12 @@ import StreamEdit from "../streams/streamEdit";
 import StreamList from "../streams/streamList";
 import StreamShow from "../streams/streamShow";
 
-
+ 
 
 const App = ()=>{
     return(
         <div className = "ui container">
-            <BrowserRouter>
+            <BrowserRouter basename='/src'>
                 
                 <div>
                     <Header/>
