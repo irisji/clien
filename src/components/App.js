@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route,link, switch } from "react-router-dom";
+import {HashRouter, Route,link, Switch } from "react-router-dom";
 
 import Header from "./Header";
 import StreamCreate from "../streams/streamCreate";
@@ -17,15 +17,15 @@ const App = ()=>{
                 
                 <div>
                     <Header/>
-                    <switch>
+                    <Switch>
                     <Route exact path="/" component={StreamList}/>
                     <Route exact path="/streams/new" component={StreamCreate} />
                     <Route exact path="/streams/edit" component={StreamEdit} />
                     <Route exact path="/streams/delete" component={StreamDelete}/>
                     <Route exact path="/streams/show" component={StreamShow}/>
-                    </switch>
+                    </Switch>
                 </div>
-        
+           
             </HashRouter>
         </div>
         )
